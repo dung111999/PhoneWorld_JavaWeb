@@ -1,0 +1,97 @@
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.w-100 {
+	width: 100% !important;
+}
+
+/* line 28, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/utilities/_spacing.scss */
+.mt-auto {
+	margin-top: auto !important;
+}
+
+/* line 21, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/utilities/_flex.scss */
+.justify-content-between {
+	justify-content: space-between !important;
+}
+
+/* line 6, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+@media ( min-width : 576px) {
+	/* line 6, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media ( min-width : 768px) {
+	/* line 6, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media ( min-width : 992px) {
+	/* line 6, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	/* line 6, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+	.container {
+		max-width: 1140px;
+	}
+}
+
+/* line 18, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_grid.scss */
+.container-fluid {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+/* line 17, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_card.scss */
+.card-body {
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+/* line 66, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/bootstrap/_card.scss */
+.card-header {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.03);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
